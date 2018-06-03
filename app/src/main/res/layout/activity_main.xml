@@ -91,6 +91,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
                 android:ems="10"
+                android:gravity="center"
                 android:inputType="textPersonName"
                 app:layout_constraintBottom_toTopOf="@+id/fraishorsforfaittext"
                 app:layout_constraintEnd_toEndOf="parent"

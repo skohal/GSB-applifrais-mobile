@@ -8,30 +8,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="70dp">
 
         <TextView
             android:id="@+id/id_fiche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="id"
-            android:textColor="?attr/colorError" />
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/mois_fiche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="mois"
-            android:textColor="?attr/colorPrimary" />
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/montant_fiche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="montant" />
+            android:gravity="center"
+            android:text="montant"
+            android:textColor="@android:color/black" />
 
     </LinearLayout>
 

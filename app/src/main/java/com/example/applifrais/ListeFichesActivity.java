@@ -25,7 +25,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ListeFichesActivity extends Activity implements AdapterView.OnItemClickListener {
+public class ListeFichesActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
 
 

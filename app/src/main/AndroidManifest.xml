@@ -21,14 +21,14 @@
 
         <activity
             android:name=".ListeFichesActivity"
-            android:label="Liste fiches"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="Liste des fiches"
+            android:theme="@style/AppTheme">
         </activity>
 
         <activity
             android:name=".DetailleFicheActivity"
-            android:label="Détaille fiche"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="Détaille de la fiche"
+            android:theme="@style/AppTheme">
         </activity>
     </application>
 
